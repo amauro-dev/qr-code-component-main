@@ -1,11 +1,11 @@
 :root {
-    --color-white: hsl(0, 0%, 100%);
-    --color-slate-300: hsl(212, 45%, 89%);
-    --color-slate-500: hsl(216, 15%, 48%);
-    --color-slate-900: hsl(218, 44%, 22%);
+  --color-white: hsl(0, 0%, 100%);
+  --color-slate-300: hsl(212, 45%, 89%);
+  --color-slate-500: hsl(216, 15%, 48%);
+  --color-slate-900: hsl(218, 44%, 22%);
 
-    --font-size-h1: 22px;
-    --font-size-paragraph: 15px;
+  --font-size-h1: 22px;
+  --font-size-paragraph: 15px;
 }
 
 * {
@@ -14,74 +14,73 @@
 }
 
 body {
-    min-height: 100vh; 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--color-slate-300);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-slate-300);
 }
 
 .text-container {
-    display: flex;
-    flex-direction: column;
-    margin: 24px 0;
-    padding: 0 16px;
-    gap: 16px;
+  display: flex;
+  flex-direction: column;
+  margin: 24px 0;
+  padding: 0 16px;
+  gap: 16px;
 
-    h1 {
-        font-size: var(--font-size-h1);
-        text-align: center;
-        font-weight: 700;
-        line-height: 120%;
-        letter-spacing: 0px;
-        color: var(--color-slate-900);
-    }
-    
-    p {
-        font-size: var(--font-size-paragraph);
-        text-align: center;
-        font-weight: 400;
-        line-height: 140%;
-        letter-spacing: 0.2px;
-        color: var(--color-slate-500);
-    }
+  h1 {
+    font-size: var(--font-size-h1);
+    text-align: center;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0px;
+    color: var(--color-slate-900);
+  }
+
+  p {
+    font-size: var(--font-size-paragraph);
+    text-align: center;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    color: var(--color-slate-500);
+  }
 }
 
-
 main {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: auto;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
 }
 
 .card {
-    background-color: var(--color-white);
-    max-width: 320px;
-    padding: 16px;
-    margin: 16px;
-    align-self: center;
-    border-radius: 20px;
-    box-shadow: black 10px 2px 4;
+  background-color: var(--color-white);
+  max-width: 320px;
+  padding: 16px;
+  margin: 28px;
+  align-self: center;
+  border-radius: 20px;
+  box-shadow: black 10px 2px 4;
 }
 
 .qr-code {
-    max-width: 100%;
-    border-radius: 10px;
+  max-width: 100%;
+  border-radius: 10px;
 }
 
-.attribution { 
-    font-size: 11px; 
-    text-align: center;
+.attribution {
+  font-size: 11px;
+  text-align: center;
 
-    a { 
-        color: hsl(228, 45%, 44%); 
-    }
+  a {
+    color: hsl(228, 45%, 44%);
+  }
 }
 
 footer {
-    padding: 16px;
-    flex-shrink: 0;
+  padding: 16px;
+  flex-shrink: 0;
 }
